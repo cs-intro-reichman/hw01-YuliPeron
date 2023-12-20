@@ -11,8 +11,8 @@ public class Triangle {
 		int sideThree = Integer.parseInt(args[2]);
 
 		if(sideOne+sideTwo> sideThree && sideOne+sideThree>sideTwo && sideTwo+sideThree >sideOne)
-			System.out.println(sideOne + ", "+ sideTwo+ ", "+ sideThree + ": True");
+			System.out.println(sideOne + ", "+ sideTwo+ ", "+ sideThree + ": true");
 		else
-			System.out.println(sideOne + ", "+ sideTwo+ ", "+ sideThree + ": False");
+			System.out.println(sideOne + ", "+ sideTwo+ ", "+ sideThree + ": false");
 	}
 }
